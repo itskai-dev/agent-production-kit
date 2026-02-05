@@ -1,5 +1,5 @@
 /**
- * Integration Test - OpenClaw Production Toolkit
+ * Integration Test - Agent Production Kit
  * 
  * Tests all components working together:
  * - Policy Engine
@@ -39,7 +39,7 @@ function setupTestEnvironment() {
 }
 
 async function runTests() {
-  console.log('=== OpenClaw Production Toolkit - Integration Test ===\n');
+  console.log('=== Agent Production Kit - Integration Test ===\n');
 
   setupTestEnvironment();
 
@@ -228,7 +228,7 @@ async function runTests() {
   console.log('✓ Production Agent: Working');
   console.log('✓ Governance Flow: End-to-End Validated');
   console.log('');
-  console.log('The OpenClaw Production Toolkit is ready for use!');
+  console.log('The Agent Production Kit is ready for use!');
 }
 
 // Run tests

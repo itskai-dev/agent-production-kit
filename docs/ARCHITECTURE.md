@@ -1,6 +1,6 @@
 # Architecture Overview
 
-Technical architecture of the OpenClaw Production Toolkit.
+Technical architecture of the Agent Production Kit.
 
 ---
 

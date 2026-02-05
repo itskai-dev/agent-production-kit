@@ -1,5 +1,5 @@
 /**
- * OpenClaw Production Toolkit - Identity System
+ * Agent Production Kit - Identity System
  * 
  * Zero Trust agent identity with continuous verification.
  * Every agent has a cryptographic identity that's verified on each action.

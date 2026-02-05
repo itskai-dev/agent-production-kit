@@ -1,5 +1,5 @@
 /**
- * OpenClaw Production Toolkit - Audit Logger
+ * Agent Production Kit - Audit Logger
  * 
  * Immutable audit trail with cryptographic verification.
  * Every decision, action, and escalation is logged with tamper-proof timestamps.

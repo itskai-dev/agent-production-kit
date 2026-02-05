@@ -1,5 +1,5 @@
 /**
- * OpenClaw Production Toolkit - Production Agent Wrapper
+ * Agent Production Kit - Production Agent Wrapper
  * 
  * Main integration layer for OpenClaw agents.
  * Wraps agent actions with governance, identity verification, and audit trails.

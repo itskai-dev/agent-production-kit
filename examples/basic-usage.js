@@ -1,5 +1,5 @@
 /**
- * Basic Usage Example - OpenClaw Production Toolkit
+ * Basic Usage Example - Agent Production Kit
  * 
  * Demonstrates how to use the Production Agent wrapper to add
  * governance, identity, and audit trails to your OpenClaw agents.
@@ -9,7 +9,7 @@ const ProductionAgent = require('../src/production-agent');
 const path = require('path');
 
 async function main() {
-  console.log('=== OpenClaw Production Toolkit - Basic Usage ===\n');
+  console.log('=== Agent Production Kit - Basic Usage ===\n');
 
   // Initialize a production-ready agent
   const agent = new ProductionAgent('customer-service-agent', {

@@ -1,6 +1,6 @@
 # OpenClaw Integration Guide
 
-This guide shows how to integrate the Production Toolkit with OpenClaw agents.
+This guide shows how to integrate the Agent Production Kit with OpenClaw agents.
 
 ---
 
@@ -9,7 +9,7 @@ This guide shows how to integrate the Production Toolkit with OpenClaw agents.
 ### 1. Install the Toolkit
 
 ```bash
-cd ~/.openclaw/workspace/projects/production-toolkit
+cd ~/.openclaw/workspace/projects/agent-production-kit
 npm install
 ```
 
@@ -44,7 +44,7 @@ audit:
 ### 3. Wrap Your OpenClaw Tools
 
 ```javascript
-const ProductionAgent = require('./production-toolkit/src/production-agent');
+const ProductionAgent = require('./agent-production-kit/src/production-agent');
 const path = require('path');
 
 class ProductionOpenClawAgent {
@@ -197,7 +197,7 @@ When deploying agents to production, use the Production Toolkit:
 3. Monitor trust scores and audit logs
 4. Review escalations regularly
 
-See `projects/production-toolkit/docs/OPENCLAW-INTEGRATION.md` for details.
+See `projects/agent-production-kit/docs/OPENCLAW-INTEGRATION.md` for details.
 ```
 
 ---
@@ -205,7 +205,7 @@ See `projects/production-toolkit/docs/OPENCLAW-INTEGRATION.md` for details.
 ## Real-World Example: Production Customer Service Bot
 
 ```javascript
-const ProductionAgent = require('./production-toolkit/src/production-agent');
+const ProductionAgent = require('./agent-production-kit/src/production-agent');
 const path = require('path');
 
 class CustomerServiceBot {

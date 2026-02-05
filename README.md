@@ -1,4 +1,4 @@
-# OpenClaw Production Toolkit
+# Agent Production Kit
 
 **Move AI agents from prototype to production with confidence.**
 
@@ -19,7 +19,7 @@ This toolkit solves **gap #1** - giving you production-grade governance from day
 
 ## What This Does
 
-The OpenClaw Production Toolkit adds **four essential layers** to your agents:
+The Agent Production Kit adds **four essential layers** to your agents:
 
 ### 1. 🛡️ Policy Engine (Security Outside LLM)
 - Declarative YAML policies that **prompt injection cannot bypass**
@@ -52,13 +52,13 @@ The OpenClaw Production Toolkit adds **four essential layers** to your agents:
 ### Installation
 
 ```bash
-npm install openclaw-production-toolkit
+npm install agent-production-kit
 ```
 
 ### Basic Usage
 
 ```javascript
-const ProductionAgent = require('openclaw-production-toolkit');
+const ProductionAgent = require('agent-production-kit');
 
 // Initialize agent with governance
 const agent = new ProductionAgent('customer-service-agent', {
@@ -523,10 +523,10 @@ MIT License - see [LICENSE](LICENSE) file.
 
 ## Support
 
-- **Docs:** https://docs.openclaw.com/production-toolkit
+- **Docs:** https://docs.openclaw.com/agent-production-kit
 - **Discord:** https://discord.gg/openclaw
-- **Issues:** https://github.com/openclaw/production-toolkit/issues
-- **Email:** support@openclaw.com
+- **Issues:** https://github.com/reflectt/agent-production-kit/issues
+- **Email:** support@reflectt.ai
 
 ---
 
@@ -535,11 +535,11 @@ MIT License - see [LICENSE](LICENSE) file.
 If you use this toolkit in research or production, please cite:
 
 ```bibtex
-@software{openclaw_production_toolkit,
-  title={OpenClaw Production Toolkit: Governance-First Framework for Agentic AI},
+@software{agent_production_kit,
+  title={Agent Production Kit: Governance-First Framework for Agentic AI},
   author={Reflectt AI},
   year={2026},
-  url={https://github.com/reflectt/openclaw-production-toolkit}
+  url={https://github.com/reflectt/agent-production-kit}
 }
 ```
 

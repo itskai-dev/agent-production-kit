@@ -1,5 +1,5 @@
 /**
- * OpenClaw Production Toolkit - Policy Engine
+ * Agent Production Kit - Policy Engine
  * 
  * Security-first policy enforcement OUTSIDE LLM control.
  * Implements Cedar-like declarative permissions that prompt injection cannot bypass.

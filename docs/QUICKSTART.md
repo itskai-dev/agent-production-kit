@@ -7,7 +7,7 @@ Get your first production-ready agent running in **5 minutes**.
 ## Step 1: Install (30 seconds)
 
 ```bash
-cd projects/production-toolkit
+cd projects/agent-production-kit
 npm install
 ```
 

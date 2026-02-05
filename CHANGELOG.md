@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to the OpenClaw Production Toolkit will be documented in this file.
+All notable changes to the Agent Production Kit will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
@@ -38,7 +38,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Security best practices and compliance guides
 
 ### Initial Release
-This is the first public release of the OpenClaw Production Toolkit, designed to help organizations bridge the "prototype purgatory" gap (66% experimenting → 11% in production) by providing governance-first infrastructure for agentic AI.
+This is the first public release of the Agent Production Kit, designed to help organizations bridge the "prototype purgatory" gap (66% experimenting → 11% in production) by providing governance-first infrastructure for agentic AI.
 
 **Target Use Case**: Enterprise teams needing SOC2/GDPR/HIPAA compliance for AI agents without starting from scratch.
 
