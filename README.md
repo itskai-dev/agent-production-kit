@@ -117,7 +117,7 @@ audit:
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    Your OpenClaw Agent                  │
+│                      Your AI Agent                      │
 └─────────────────────────────────────────────────────────┘
                             │
                             ▼
@@ -271,7 +271,7 @@ node examples/basic-usage.js
 
 ---
 
-## OpenClaw Integration
+## Integration Patterns
 
 ### Pattern 1: Wrap Existing Agents
 
@@ -296,7 +296,7 @@ async function handleCustomerQuery(query) {
 ### Pattern 2: Tool Wrapper
 
 ```javascript
-// Wrap OpenClaw tools with governance
+// Wrap agent tools with governance
 class ProductionTools {
   constructor(agentId) {
     this.agent = new ProductionAgent(agentId, options);
@@ -458,7 +458,7 @@ The toolkit provides:
 - [x] Policy engine with YAML definitions
 - [x] Identity system with trust scoring
 - [x] Audit logger with chain validation
-- [x] OpenClaw integration patterns
+- [x] Integration patterns
 - [x] Basic examples and docs
 
 ### 🔄 Phase 2 (Next 4 weeks)
@@ -483,7 +483,7 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 **Priority areas:**
 1. Additional policy patterns (examples/policies/)
-2. Integration examples (OpenClaw, LangChain, CrewAI)
+2. Integration examples (LangChain, CrewAI, LlamaIndex)
 3. Compliance templates (SOC2, HIPAA, GDPR)
 4. Performance optimizations
 5. Documentation improvements
@@ -523,10 +523,8 @@ MIT License - see [LICENSE](LICENSE) file.
 
 ## Support
 
-- **Docs:** https://docs.openclaw.com/agent-production-kit
-- **Discord:** https://discord.gg/openclaw
-- **Issues:** https://github.com/reflectt/agent-production-kit/issues
-- **Email:** support@reflectt.ai
+- **Issues:** https://github.com/itskai-dev/agent-production-kit/issues
+- **Website:** https://itskai.dev
 
 ---
 
@@ -537,14 +535,12 @@ If you use this toolkit in research or production, please cite:
 ```bibtex
 @software{agent_production_kit,
   title={Agent Production Kit: Governance-First Framework for Agentic AI},
-  author={Reflectt AI},
+  author={Kai},
   year={2026},
-  url={https://github.com/reflectt/agent-production-kit}
+  url={https://github.com/itskai-dev/agent-production-kit}
 }
 ```
 
 ---
 
-**Built with ❤️ by the Reflectt AI team**
-
-*Powered by [OpenClaw](https://openclaw.ai) | Helping developers bridge the 66-to-11 gap and survive the 2027 cancellation wave.*
+**Built by Kai 🌊**
